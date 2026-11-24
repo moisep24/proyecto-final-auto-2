@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartHome · Autómatas II</title>
+  <link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+  <!-- RESPONSABLE: Integrante 5  RAMA: feature/frontend
+       Versión mínima funcional. Pendiente: historial, notificaciones,
+       vista bonita del AST, resaltar el error en la línea, etc. -->
+  <header>
+    <h1>SmartHome</h1>
+    <p>Centro de control por instrucciones · Lenguajes y Autómatas II</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Dispositivos</h2>
+      <div id="dispositivos" class="dispositivos"></div>
+      <button id="btn-reiniciar" class="secundario">Reiniciar estados</button>
+    </section>
+
+    <section class="panel">
+      <h2>Consola</h2>
+      <textarea id="codigo" spellcheck="false" placeholder="ENCENDER luz_sala">ENCENDER luz_sala
+ACTIVAR alarma1
+SI alarma1 == ACTIVADA ENTONCES NOTIFICAR "Alarma activada"</textarea>
+      <div class="acciones">
+        <button id="btn-ejecutar">Ejecutar</button>
+        <button id="btn-analizar" class="secundario">Solo analizar</button>
+      </div>
+      <div id="errores"></div>
+      <div id="resultados"></div>
+    </section>
+
+    <section class="panel ancho">
+      <h2>Etapas del compilador</h2>
+      <div class="etapas">
+        <div><h3>Tokens</h3><pre id="tokens"></pre></div>
+        <div><h3>AST</h3><pre id="ast"></pre></div>
+        <div><h3>IR</h3><pre id="ir"></pre></div>
+        <div><h3>IR optimizado</h3><pre id="ir-opt"></pre></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

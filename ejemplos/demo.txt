@@ -1,0 +1,21 @@
+# Escenarios obligatorios para la demostración (sección 16)
+# Ejecutarlos uno por uno en la consola.
+
+ENCENDER luz_sala
+APAGAR luz_sala
+ACTIVAR alarma1
+DESACTIVAR alarma1
+CONSULTAR luz_sala
+LISTAR DISPOSITIVOS
+ENCENDER dispositivo99
+ENCENDER alarma1
+ENCENDER
+ENCENDER luz_sala@
+NOTIFICAR "Prueba"
+ENVIAR CORREO A "admin@casa.com" MENSAJE "Hola, esta es una prueba"
+SI luz_sala == ENCENDIDO ENTONCES APAGAR luz_sala
+
+# Optimizaciones (usar "Solo analizar" para ver el IR optimizado)
+ENCENDER luz_sala
+ENCENDER luz_sala
+APAGAR luz_sala

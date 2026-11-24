@@ -1,0 +1,28 @@
+/* RESPONSABLE: Integrante 5 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f4f5f7; color: #1d2330; }
+header { padding: 16px 24px; background: #1d2330; color: #fff; }
+header h1 { margin: 0; font-size: 22px; }
+header p { margin: 4px 0 0; opacity: .7; font-size: 14px; }
+main { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 16px 24px; }
+.panel { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+.panel.ancho { grid-column: 1 / -1; }
+h2 { margin: 0 0 12px; font-size: 16px; }
+h3 { margin: 0 0 6px; font-size: 13px; color: #5b6475; }
+.dispositivos { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-bottom: 12px; }
+.dispositivo { border: 1px solid #dfe3ea; border-radius: 8px; padding: 10px; display: grid; gap: 2px; }
+.dispositivo small { color: #5b6475; }
+.dispositivo .estado { font-size: 12px; font-weight: 600; color: #5b6475; }
+.dispositivo .foco { width: 14px; height: 14px; border-radius: 50%; background: #c7ccd6; }
+.dispositivo.on { border-color: #f2b705; }
+.dispositivo.on .foco { background: #f2b705; box-shadow: 0 0 10px #f2b705; }
+.dispositivo.on .estado { color: #8a6800; }
+textarea { width: 100%; min-height: 140px; font: 14px/1.5 ui-monospace, monospace; padding: 10px; border: 1px solid #dfe3ea; border-radius: 8px; background: #0f1420; color: #d7e0f0; }
+.acciones { display: flex; gap: 8px; margin: 8px 0; }
+button { border: 0; border-radius: 6px; padding: 8px 14px; background: #2f6fde; color: #fff; font-weight: 600; cursor: pointer; }
+button.secundario { background: #e6e9ef; color: #1d2330; }
+.error { color: #b42318; background: #fde8e7; padding: 6px 10px; border-radius: 6px; margin: 4px 0; }
+.ok { color: #146c2e; background: #e6f4ea; padding: 6px 10px; border-radius: 6px; margin: 4px 0; }
+.etapas { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+pre { margin: 0; background: #f4f5f7; padding: 8px; border-radius: 6px; font-size: 12px; min-height: 80px; max-height: 300px; overflow: auto; }
+@media (max-width: 900px) { main, .etapas { grid-template-columns: 1fr; } }
