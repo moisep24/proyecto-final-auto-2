@@ -1,4 +1,4 @@
-"""Análisis semántico.  RESPONSABLE: Integrante 3   RAMA: feature/semantic
+"""Análisis semántico.  RESPONSABLE: JonathanRene   RAMA: feature/semantic
 
 Recorre el AST y verifica que cada instrucción tenga sentido. No modifica nada.
 
@@ -19,4 +19,4 @@ from app.semantica.tabla_simbolos import TablaSimbolos
 
 
 def validar(programa: ast.Programa, tabla: TablaSimbolos) -> None:
-    raise NotImplementedError("Validador semántico pendiente (Integrante 3)")
+    raise NotImplementedError("Validador semántico pendiente (JonathanRene)")

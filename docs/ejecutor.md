@@ -1,6 +1,6 @@
 # Máquina virtual
 
-> Responsable: Integrante 4
+> Responsable: Uriel-tech302
 
 _Explicar: contador de programa, registro flag, tabla de etiquetas, qué hace cada instrucción,
 cómo se comunica con la tabla de símbolos y con los servicios (notificaciones y correo),

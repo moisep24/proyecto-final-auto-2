@@ -1,4 +1,4 @@
-"""Pruebas del generador de IR (Integrante 3)."""
+"""Pruebas del generador de IR (JonathanRene)."""
 
 from app.ir.generador import generar
 from app.lenguaje import ast

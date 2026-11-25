@@ -1,27 +1,28 @@
-"""Envío de correo por SMTP a Mailpit.  RESPONSABLE: Integrante 4   RAMA: feature/executor
+"""Envío de correo por SMTP a Mailpit.  IMPLEMENTADO (Pascual). Lo usa la VM de Uriel-tech302.
 
 Mailpit corre en Docker y acepta cualquier correo sin autenticación:
   - SMTP en  SMTP_HOST:SMTP_PORT  (mailpit:1025 dentro de Docker, localhost:1025 fuera)
   - Bandeja web en http://localhost:8025 para ver los correos recibidos
-
-Implementación sugerida con la librería estándar:
-
-    from email.message import EmailMessage
-    import smtplib
-    msg = EmailMessage()
-    msg["From"] = config.CORREO_REMITENTE
-    msg["To"] = destinatario
-    msg["Subject"] = "SmartHome"
-    msg.set_content(mensaje)
-    with smtplib.SMTP(config.SMTP_HOST, config.SMTP_PORT, timeout=5) as s:
-        s.send_message(msg)
-
-Si falla la conexión, lanzar ErrorEjecucion("No se pudo conectar al servidor de correo").
 """
 
-from app import config  # noqa: F401
-from app.errores import ErrorEjecucion  # noqa: F401
+import smtplib
+from email.message import EmailMessage
+
+from app import config
+from app.errores import ErrorEjecucion
 
 
 def enviar_correo(destinatario: str, mensaje: str) -> None:
-    raise NotImplementedError("Envío de correo pendiente (Integrante 4)")
+    msg = EmailMessage()
+    msg["From"] = config.CORREO_REMITENTE
+    msg["To"] = destinatario
+    msg["Subject"] = "Notificación de SmartHome"
+    msg.set_content(mensaje)
+    try:
+        with smtplib.SMTP(config.SMTP_HOST, config.SMTP_PORT, timeout=5) as servidor:
+            servidor.send_message(msg)
+    except (OSError, smtplib.SMTPException) as e:
+        raise ErrorEjecucion(
+            f"No se pudo enviar el correo a {destinatario}: servidor SMTP "
+            f"{config.SMTP_HOST}:{config.SMTP_PORT} no disponible ({e.__class__.__name__})"
+        ) from e

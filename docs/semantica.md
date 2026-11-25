@@ -1,6 +1,6 @@
 # Análisis semántico
 
-> Responsable: Integrante 3
+> Responsable: JonathanRene
 
 ## Tabla de símbolos
 

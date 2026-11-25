@@ -1,6 +1,6 @@
 # Tokens reconocidos
 
-> Responsable: Integrante 2. Definidos en `app/lenguaje/tokens.py`.
+> Responsable: Marco1120. Definidos en `app/lenguaje/tokens.py`.
 
 | Token | Patrón | Ejemplo |
 | --- | --- | --- |

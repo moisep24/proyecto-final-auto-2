@@ -1,4 +1,4 @@
-"""Pruebas de la máquina virtual (Integrante 4). Usa TablaFalsa y ServiciosFalsos
+"""Pruebas de la máquina virtual (Uriel-tech302). Usa TablaFalsa y ServiciosFalsos
 para no depender de otros módulos ni de Mailpit."""
 
 import pytest

@@ -1,4 +1,4 @@
-"""Pruebas del optimizador (Integrante 4). Incluye la prueba obligatoria de que
+"""Pruebas del optimizador (Uriel-tech302). Incluye la prueba obligatoria de que
 las optimizaciones conservan el resultado."""
 
 import pytest

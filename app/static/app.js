@@ -1,4 +1,4 @@
-// RESPONSABLE: Integrante 5  RAMA: feature/frontend
+// RESPONSABLE: Carlosprogramacion12  RAMA: feature/frontend
 
 const $ = (id) => document.getElementById(id);
 

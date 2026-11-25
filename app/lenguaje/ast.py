@@ -1,7 +1,7 @@
 """Nodos del Árbol Sintáctico Abstracto (AST). CONTRATO.
 
-El parser (Int. 2) construye estos nodos; el analizador semántico (Int. 3)
-y el generador de IR (Int. 3) los recorren.
+El parser (Marco1120) construye estos nodos; el analizador semántico (JonathanRene)
+y el generador de IR (JonathanRene) los recorren.
 """
 
 from dataclasses import dataclass, field, fields, is_dataclass

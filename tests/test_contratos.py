@@ -1,4 +1,4 @@
-"""Pruebas de los contratos compartidos (Integrante 1). Deben pasar siempre."""
+"""Pruebas de los contratos compartidos (Pascual). Deben pasar siempre."""
 
 from app.errores import ErrorLexico
 from app.ir.instrucciones import InstrIR, OpIR

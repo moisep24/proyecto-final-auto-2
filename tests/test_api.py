@@ -1,4 +1,4 @@
-"""Pruebas de la API y persistencia (Integrante 1). Deben pasar desde el inicio."""
+"""Pruebas de la API y persistencia (Pascual). Deben pasar desde el inicio."""
 
 
 def test_lista_dispositivos(cliente):

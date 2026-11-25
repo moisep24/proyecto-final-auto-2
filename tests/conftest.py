@@ -18,7 +18,7 @@ integracion = pytest.mark.xfail(reason="requiere todas las etapas implementadas"
 
 class TablaFalsa:
     """Tabla de símbolos de mentira para probar la VM y el optimizador
-    sin depender del módulo del Integrante 3."""
+    sin depender del módulo del JonathanRene."""
 
     def __init__(self, dispositivos=None):
         self._d = {d["id"]: dict(d) for d in (dispositivos or DISPOSITIVOS_INICIALES)}

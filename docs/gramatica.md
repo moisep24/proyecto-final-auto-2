@@ -1,6 +1,6 @@
 # Gramática formal
 
-> Responsable: Integrante 2
+> Responsable: Marco1120
 
 ## EBNF
 

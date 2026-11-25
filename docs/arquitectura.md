@@ -1,6 +1,6 @@
 # Arquitectura
 
-> Responsable: Integrante 1
+> Responsable: Pascual
 
 ## Flujo de una instrucción
 

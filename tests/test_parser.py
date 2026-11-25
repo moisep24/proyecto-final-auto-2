@@ -1,4 +1,4 @@
-"""Pruebas del parser (Integrante 2). Quita @pendiente cuando lo implementes."""
+"""Pruebas del parser (Marco1120). Quita @pendiente cuando lo implementes."""
 
 import pytest
 
