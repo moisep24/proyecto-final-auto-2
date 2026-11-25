@@ -40,6 +40,30 @@ Cada archivo pendiente explica al inicio **qué recibe, qué devuelve y qué err
 Las pruebas ya están escritas: el trabajo es que pasen. Cuando terminen, borren el `@pendiente`
 de sus pruebas, corran `pytest` y abran un Pull Request hacia `develop`.
 
+### ¿Hay que esperar a alguien? No: todos trabajan al mismo tiempo
+
+Aunque las etapas van una tras otra (parser → validador → IR → optimizador → VM), **nadie
+necesita el código de otro para empezar ni para probar**:
+
+- Las pruebas de JonathanRene arman el AST a mano, así que no necesita el parser de Marco1120.
+- Las pruebas de Uriel-tech302 usan una tabla de símbolos y un IR escritos a mano (`TablaFalsa` en `tests/conftest.py`), así que no necesita el trabajo de JonathanRene.
+- La interfaz de Carlosprogramacion12 ya se conecta a la API y muestra lo que haya; conforme se integren las etapas, aparecen solas.
+
+Lo que sí tiene orden es **la integración en `develop`**. Cuando a alguien le aprueben su PR, avisa en el grupo:
+
+> ✅ Ya está en develop: parser (Marco1120). Hagan `git pull origin develop` en su rama.
+
+Así todos traen lo nuevo y pueden probar el flujo completo desde la página.
+
+| Al terminar... | ...se puede probar en la página |
+| --- | --- |
+| parser (Marco1120) | errores sintácticos y la vista de tokens y AST |
+| validador (JonathanRene) | errores semánticos (`ENCENDER dispositivo99`) |
+| generador de IR (JonathanRene) | la vista del IR |
+| optimizador y VM (Uriel-tech302) | los dispositivos cambian de estado y llega el correo |
+
+Si alguien se atora más de medio día, avisa en el grupo en lugar de esperar.
+
 ### Marco1120 · Lenguaje (rama `feature/parser`)
 
 - [ ] Implementar `app/lenguaje/parser.py`: parser descendente recursivo con la gramática que viene en el archivo. Debe pasar `pytest tests/test_parser.py`.
