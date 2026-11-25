@@ -18,10 +18,10 @@ Instituto Tecnológico de Oaxaca · Ingeniería en Sistemas Computacionales.
 | Integrante | Rol | Módulos |
 | --- | --- | --- |
 | Pascual Coyolt Moisés | Líder técnico y backend | `app/api`, `app/db`, `app/pipeline.py`, Docker |
-| _Integrante 2_ | Lenguaje | `app/lenguaje/lexer.py`, `app/lenguaje/parser.py` |
-| _Integrante 3_ | Semántico e IR | `app/semantica/`, `app/ir/generador.py` |
-| _Integrante 4_ | Optimización y ejecución | `app/optimizador/`, `app/vm/` |
-| _Integrante 5_ | Frontend | `app/static/` |
+| [Marco1120](https://github.com/Marco1120) | Lenguaje | `app/lenguaje/lexer.py`, `app/lenguaje/parser.py` |
+| [JonathanRene](https://github.com/JonathanRene) | Semántico e IR | `app/semantica/`, `app/ir/generador.py` |
+| [Uriel-tech302](https://github.com/Uriel-tech302) | Optimización y ejecución | `app/optimizador/`, `app/vm/` |
+| _Por confirmar_ | Frontend | `app/static/` |
 
 ## Cómo ejecutarlo
 
@@ -79,19 +79,19 @@ app/
 ├── lenguaje/
 │   ├── tokens.py       # CONTRATO: tipos de token
 │   ├── ast.py          # CONTRATO: nodos del AST
-│   ├── lexer.py        # Integrante 2
-│   └── parser.py       # Integrante 2
+│   ├── lexer.py        # Marco1120
+│   └── parser.py       # Marco1120
 ├── semantica/
 │   ├── dispositivos.py # CONTRATO: tipos y dispositivos
-│   ├── tabla_simbolos.py  # Integrante 3
-│   └── validador.py       # Integrante 3
+│   ├── tabla_simbolos.py  # JonathanRene
+│   └── validador.py       # JonathanRene
 ├── ir/
 │   ├── instrucciones.py   # CONTRATO: instrucciones intermedias
-│   └── generador.py       # Integrante 3
-├── optimizador/optimizador.py  # Integrante 4
-├── vm/maquina.py, correo.py    # Integrante 4
-├── api/rutas.py, db/database.py  # Integrante 1
-└── static/                       # Integrante 5
+│   └── generador.py       # JonathanRene
+├── optimizador/optimizador.py  # Uriel-tech302
+├── vm/maquina.py, correo.py    # Uriel-tech302
+├── api/rutas.py, db/database.py  # Pascual
+└── static/                       # por confirmar
 tests/                  # una prueba por módulo + escenarios obligatorios
 docs/                   # documentación técnica, una sección por integrante
 ```

@@ -2,15 +2,15 @@
 
 | Sección | Archivo | Responsable |
 | --- | --- | --- |
-| Descripción y arquitectura | [arquitectura.md](arquitectura.md) | Integrante 1 |
-| Gramática formal | [gramatica.md](gramatica.md) | Integrante 2 |
-| Tokens reconocidos | [tokens.md](tokens.md) | Integrante 2 |
-| Diseño del AST | [ast.md](ast.md) | Integrante 2 |
-| Tabla de símbolos y validaciones semánticas | [semantica.md](semantica.md) | Integrante 3 |
-| Representación intermedia | [ir.md](ir.md) | Integrante 3 |
-| Optimizaciones | [optimizaciones.md](optimizaciones.md) | Integrante 4 |
-| Funcionamiento del ejecutor | [ejecutor.md](ejecutor.md) | Integrante 4 |
-| Interfaz | [interfaz.md](interfaz.md) | Integrante 5 |
-| Modelo de base de datos | [modelo_datos.md](modelo_datos.md) | Integrante 1 |
-| Instalación | [../README.md](../README.md) | Integrante 1 |
-| Tarjetas del Kanban | [kanban.md](kanban.md) | Integrante 1 |
+| Descripción y arquitectura | [arquitectura.md](arquitectura.md) | Pascual |
+| Gramática formal | [gramatica.md](gramatica.md) | Marco1120 |
+| Tokens reconocidos | [tokens.md](tokens.md) | Marco1120 |
+| Diseño del AST | [ast.md](ast.md) | Marco1120 |
+| Tabla de símbolos y validaciones semánticas | [semantica.md](semantica.md) | JonathanRene |
+| Representación intermedia | [ir.md](ir.md) | JonathanRene |
+| Optimizaciones | [optimizaciones.md](optimizaciones.md) | Uriel-tech302 |
+| Funcionamiento del ejecutor | [ejecutor.md](ejecutor.md) | Uriel-tech302 |
+| Interfaz | [interfaz.md](interfaz.md) | Por confirmar |
+| Modelo de base de datos | [modelo_datos.md](modelo_datos.md) | Pascual |
+| Instalación | [../README.md](../README.md) | Pascual |
+| Tarjetas del Kanban | [kanban.md](kanban.md) | Pascual |
