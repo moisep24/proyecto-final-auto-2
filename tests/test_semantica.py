@@ -1,4 +1,4 @@
-"""Pruebas de la tabla de símbolos y el validador (Integrante 3).
+"""Pruebas de la tabla de símbolos y el validador (JonathanRene).
 El AST se arma a mano para no depender del parser."""
 
 import pytest
@@ -19,7 +19,6 @@ def prog(*instrucciones):
     return ast.Programa(list(instrucciones))
 
 
-@pendiente
 def test_tabla_de_simbolos():
     t = tabla()
     assert t.existe("luz_sala") and not t.existe("dispositivo99")

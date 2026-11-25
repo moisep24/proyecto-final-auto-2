@@ -1,4 +1,4 @@
-"""Optimizador de IR.  RESPONSABLE: Integrante 4   RAMA: feature/optimizer
+"""Optimizador de IR.  RESPONSABLE: Uriel-tech302   RAMA: feature/optimizer
 
 Entrada: lista de InstrIR.   Salida: nueva lista de InstrIR (no modificar la original).
 
@@ -30,4 +30,4 @@ from app.ir.instrucciones import CONTROL, EFECTOS_EXTERNOS, LECTURAS, InstrIR, O
 def optimizar(ir: list[InstrIR]) -> tuple[list[InstrIR], list[str]]:
     """Devuelve (ir_optimizado, cambios). `cambios` son frases como
     'Línea 2: SET_STATE luz_sala ENCENDIDO eliminada (redundante)'."""
-    raise NotImplementedError("Optimizador pendiente (Integrante 4)")
+    raise NotImplementedError("Optimizador pendiente (Uriel-tech302)")

@@ -1,4 +1,4 @@
-"""Persistencia en SQLite.  RESPONSABLE: Integrante 1
+"""Persistencia en SQLite.  RESPONSABLE: Pascual
 
 Tablas (ver docs/modelo_datos.md):
   dispositivos(id, tipo, estado)

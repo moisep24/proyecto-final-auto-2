@@ -1,6 +1,6 @@
 # Modelo de base de datos
 
-> Responsable: Integrante 1. SQLite, archivo en `data/smarthome.db` (volumen en Docker).
+> Responsable: Pascual. SQLite, archivo en `data/smarthome.db` (volumen en Docker).
 
 | Tabla | Campo | Tipo | Descripción |
 | --- | --- | --- | --- |

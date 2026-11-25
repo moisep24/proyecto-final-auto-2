@@ -1,6 +1,6 @@
 # Diseño del AST
 
-> Responsable: Integrante 2. Nodos definidos en `app/lenguaje/ast.py`.
+> Responsable: Marco1120. Nodos definidos en `app/lenguaje/ast.py`.
 
 | Nodo | Campos | Instrucción |
 | --- | --- | --- |

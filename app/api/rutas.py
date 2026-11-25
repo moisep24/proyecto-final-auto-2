@@ -1,4 +1,4 @@
-"""Endpoints REST.  RESPONSABLE: Integrante 1
+"""Endpoints REST.  RESPONSABLE: Pascual
 
 POST /api/ejecutar        {"codigo": "...", "ejecutar": true}
 GET  /api/dispositivos

@@ -1,6 +1,6 @@
 # Optimizaciones
 
-> Responsable: Integrante 4
+> Responsable: Uriel-tech302
 
 ## 1. Eliminación de instrucciones redundantes
 

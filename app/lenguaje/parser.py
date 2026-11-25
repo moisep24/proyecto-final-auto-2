@@ -1,4 +1,4 @@
-"""Analizador sintáctico descendente recursivo.  RESPONSABLE: Integrante 2   RAMA: feature/parser
+"""Analizador sintáctico descendente recursivo.  RESPONSABLE: Marco1120   RAMA: feature/parser
 
 Entrada:  lista de Token (salida del lexer).
 Salida:   un nodo Programa (ver app/lenguaje/ast.py).
@@ -28,4 +28,4 @@ from app.lenguaje.tokens import COMANDOS_DE_CONTROL, TipoToken, Token  # noqa: F
 
 
 def parsear(tokens: list[Token]) -> ast.Programa:
-    raise NotImplementedError("Parser pendiente (Integrante 2)")
+    raise NotImplementedError("Parser pendiente (Marco1120)")

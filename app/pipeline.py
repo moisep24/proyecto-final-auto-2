@@ -1,7 +1,7 @@
 """Une las etapas del motor:
 lexer -> parser -> tabla de símbolos -> validador -> IR -> optimizador -> VM.
 
-RESPONSABLE: Integrante 1. Mientras una etapa no esté implementada, el pipeline
+RESPONSABLE: Pascual. Mientras una etapa no esté implementada, el pipeline
 se detiene ahí y lo reporta como "pendiente" en lugar de romperse.
 """
 

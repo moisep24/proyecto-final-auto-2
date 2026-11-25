@@ -1,6 +1,6 @@
 # Representación intermedia
 
-> Responsable: Integrante 3. Definida en `app/ir/instrucciones.py`.
+> Responsable: JonathanRene. Definida en `app/ir/instrucciones.py`.
 
 | Instrucción | Significado |
 | --- | --- |

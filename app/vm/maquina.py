@@ -1,4 +1,4 @@
-"""Máquina virtual que ejecuta el IR.  RESPONSABLE: Integrante 4   RAMA: feature/executor
+"""Máquina virtual que ejecuta el IR.  RESPONSABLE: Uriel-tech302   RAMA: feature/executor
 
 Recorre la lista de InstrIR con un contador de programa (pc) y un registro `flag`.
 
@@ -39,4 +39,4 @@ class MaquinaVirtual:
         self.servicios = servicios
 
     def ejecutar(self, ir: list[InstrIR]) -> list[dict]:
-        raise NotImplementedError("Máquina virtual pendiente (Integrante 4)")
+        raise NotImplementedError("Máquina virtual pendiente (Uriel-tech302)")

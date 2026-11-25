@@ -1,4 +1,4 @@
-"""Generador de código intermedio.  RESPONSABLE: Integrante 3   RAMA: feature/ir
+"""Generador de código intermedio.  RESPONSABLE: JonathanRene   RAMA: feature/ir
 
 Entrada: Programa ya validado + TablaSimbolos (para saber a qué estado lleva cada operación).
 Salida:  lista de InstrIR que SIEMPRE termina con HALT.
@@ -24,4 +24,4 @@ from app.semantica.tabla_simbolos import TablaSimbolos
 
 
 def generar(programa: ast.Programa, tabla: TablaSimbolos) -> list[InstrIR]:
-    raise NotImplementedError("Generador de IR pendiente (Integrante 3)")
+    raise NotImplementedError("Generador de IR pendiente (JonathanRene)")

@@ -1,6 +1,6 @@
 """Catálogo de tipos de dispositivo y dispositivos iniciales. CONTRATO.
 
-La tabla de símbolos (Int. 3) se construye a partir de esto y de lo que
+La tabla de símbolos (JonathanRene) se construye a partir de esto y de lo que
 hay guardado en la base de datos.
 """
 

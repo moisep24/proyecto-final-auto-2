@@ -26,11 +26,11 @@ git checkout feature/<tu-modulo>    # ver la tabla de abajo
 
 | Integrante | Rama(s) | Archivos | Pruebas |
 | --- | --- | --- | --- |
-| 1 · Líder | `feature/api`, `feature/docker` | `app/api`, `app/db`, `app/pipeline.py`, Docker | `test_api.py`, `test_escenarios.py` |
-| 2 · Lenguaje | `feature/lexer`, `feature/parser` | `app/lenguaje/lexer.py`, `parser.py` | `test_lexer.py`, `test_parser.py` |
-| 3 · Semántico e IR | `feature/semantic`, `feature/ir` | `app/semantica/`, `app/ir/generador.py` | `test_semantica.py`, `test_ir.py` |
-| 4 · Optimización y VM | `feature/optimizer`, `feature/executor` | `app/optimizador/`, `app/vm/` | `test_optimizador.py`, `test_vm.py` |
-| 5 · Frontend | `feature/frontend` | `app/static/` | prueba manual en el navegador |
+| Pascual (líder) | `feature/api`, `feature/docker` | `app/api`, `app/db`, `app/pipeline.py`, lexer, tabla de símbolos, correo, Docker | `test_api.py`, `test_escenarios.py` |
+| Marco1120 · Lenguaje | `feature/parser` | `app/lenguaje/parser.py` (el lexer ya está hecho) | `test_parser.py` |
+| JonathanRene · Semántico e IR | `feature/semantic`, `feature/ir` | `app/semantica/`, `app/ir/generador.py` | `test_semantica.py`, `test_ir.py` |
+| Uriel-tech302 · Optimización y VM | `feature/optimizer`, `feature/executor` | `app/optimizador/`, `app/vm/` | `test_optimizador.py`, `test_vm.py` |
+| Carlosprogramacion12 · Interfaz y Docker | `feature/frontend` | `app/static/` | prueba manual + `docker compose up --build` |
 
 Cada módulo tiene, al inicio del archivo, la explicación de qué debe hacer, qué recibe y qué devuelve.
 Las pruebas de tu módulo ya están escritas: tu trabajo es hacer que pasen.
